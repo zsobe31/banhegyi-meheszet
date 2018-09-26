@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bánhegyi Roland imker</title>
+		<meta charset="utf-8">
+
+		<!-- KERESŐMOTOR OPTIMALIZÁLÁS -->
+		<meta name="author" content="Zsolt Szabó" />		
+		<meta name="description" content="meztermelo, mehesz, Mecseknadasd" />
+		<meta name="robots" content="index, follow" />
+		<meta name="keywords" content="meztermelo, mehesz, Mecseknadasd" />
+		<meta name="classification" content="meztermelo, mehesz, Mecseknadasd" />		
+		<meta name="subject" content="meztermelo, mehesz, Mecseknadasd" />
+		<meta name="revisit-after" content="5 days" />
+		<meta name="country" content="Hungary">
+	    <meta name="content-language" content="hu, hun, hungarian">
+
+
+		<!-- OPTIMALIZÁLÁS MINDEN KIJELZŐRE -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- FAVICON HOZZÁADÁSA -->
+		<link rel="icon" href="logo.jpg" type="image/gif" sizes="16x16">
+
+		<!-- ICON-FAMILY CSOMAGOK -->
+		<script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+
+		<!-- FONT-FAMILY CSOMAGOK -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+
+		<!-- BOOTSTRAP 4 -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+		<!-- SCRIPT -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+		<!-- SAJÁT STILUS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- BELSŐ SCRIPT -->
+		<script type="text/javascript">
+
+			// GÖRGETÉS SZÖVEG
+			var wss_i = 0;
+
+			var wss_array = ['Blättern Sie nach unten','der andere','Inhalt!'];
+
+			var wss_elem;
+
+			function wssNext(){
+				wss_i++;
+				wss_elem.style.opacity = 0;
+				if (wss_i > (wss_array.length -1)) {
+					wss_i = 0;
+				}
+				setTimeout("wssSlide()",1000);
+			}
+
+			function wssSlide(){
+				wss_elem.innerHTML = wss_array[wss_i];
+				wss_elem.style.opacity = 1;
+				setTimeout("wssNext()",2000);
+			}
+		</script>
+	</head>
+	<body>
+		<!-- FŐOLDAL -->
+		<section id="main">
+
+			<!-- NAVBAR -->
+			<nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">	
+
+						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#myNavbar">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+					<div class="collapse navbar-collapse" id="myNavbar">
+
+						<a class="navbar-brand mr-5" href="#main">
+							<img src="logo.jpg" alt="Logo" style=" width:40px; height:40px">
+						</a>
+
+						<a href="index.html" class="mr-3">
+							<img src="hungary.png" style="height: 25px">
+						</a>
+						<a href="index-ger.html">
+							<img src="germany.png" style="height: 25px">
+						</a>
+						
+
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item mr-2">
+								<a class="nav-link" href="#section1">Debüt</a>
+							</li>
+							<li class="nav-item mr-2">
+								<a class="nav-link" href="#section3">Artikel</a>
+							</li>
+							<li class="nav-item mr-2">
+								<a class="nav-link" href="#section4">Bewertungen</a>
+							</li>
+							<li class="nav-item mr-2">
+								<a class="nav-link" href="#section5">Beziehung</a>
+							</li>
+						
+						</ul>
+					</div>
+
+			</nav>
+			<!-- NAVBAR VÉGE -->
+
+	    	<!-- SZÖVEG DOBOZ - FŐOLDAL -->
+			<div class="container box">
+
+				<h4 class="h4">Ich heiße Sie herzlich willkommen</h4>
+				<h4 class="h4">Bei Bánhegy Family Bienenzucht!</h4>
+
+			</div>
+			<!-- SZÖVEG DOBOZ - FŐOLDAL VÉGE -->				  
+			
+		</section>
+		
+		<!-- FŐOLDAL VÉGE-->
+
+		<!-- GÖRGETÉS -->
+
+		<div class="container-fluid-1 scroll">
+			<span id="wss"></span>
+		</div>
+
+		<script type="text/javascript">
+
+			wss_elem = document.getElementById("wss");
+			wssSlide();
+
+		</script>
+				
+		<!-- GÖRGETÉS VÉGE -->
+
+		<!-- SECTION 1 -->
+
+		<!-- Bemutatkozás -->
+
+		<section id="section1" class="container-fluid">
+			
+			<h2 class="h2 gray">Debüt</h2>
+			
+			<div class="row">
+
+				<div class="col-10 text-justify mx-auto">
+
+		        	<img id="kep1" src="banhegyi.jpeg" class="mx-auto d-flex img-fluid">
+
+          			<p class="bemutatkozas">Ich bin ein Imker von Roland Bánhegyi, 1978 an einem warmen Sommertag in Mohács. Ich lebe mit mir in Mexeknadasad, der mir in allen Bienenhäusern hilft.
+					<br>Ich arbeite mit einem Bienenjäger, derzeit mit 60 Bienenstöcken in meiner Wohnung. Sogar mein Urgroßvater schlug in dem wormigen Haus, das einst dem Haus meiner Eltern gehörte. Meine ersten Bienensammler kamen von meinem Onkel, der immer noch hier ist, um mir zu helfen.
+					<br>Um meine theoretischen und praktischen Kenntnisse zu erweitern, habe ich 2013 die Berufsschule der Imker abgeschlossen, die mir nicht nur Wissen, sondern auch Wissen von Imkern gebracht hat, die mir seitdem geholfen haben, ein guter und effektiver Imker zu sein.
+					<br>Unsere aktuellen Produkte sind Frühlingsblumen, Raps, Akazie, Limette, Sommerblumen und Sonnenblumenhonig sowie Propolis im lokalen CBA-Lebensmittelgeschäft, im Weingut Hetényi und in der Karl-Mikro-Brauerei in verschiedenen Verpackungen und Verpackungen.
+					<br>Wir versuchen unser Angebot entsprechend unseren Bedürfnissen zu erweitern.
+					<br>Im Jahr 2013 schlossen wir uns dem Mecsek Honeymoon Circle an, um gemeinsam mit mehreren Baranja-Imkereien den hochwertigen Mecsek-Honig zu fördern.
+					<br>Bei unseren Produkten streben wir nicht nach Quantität, sondern nach Qualität, mit der wir das Vertrauen unserer Kunden gewinnen wollen.
+					</p><br>
+
+					<div class="dropdown text-center mb-3">
+					  	<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+					    Fotogalerie
+					  	</button>
+					  	<div class="dropdown-menu">
+					    	<a class="dropdown-item" href="kepgaleria.html" target="_blank">Fotogalerie-1</a>
+					    	<a class="dropdown-item" href="kepgaleria2.html" target="_blank">Fotogalerie-2</a>
+					  	</div>
+					</div>						  
+
+          			<p class="text-center bemutatkozas mt-2">Schauen Sie sich unsere Seite an!</p>	
+
+          		</div>
+
+			</div>
+
+		</section>
+
+		<!-- SECTION 1 VÉGE -->
+
+		<!-- SECTION 2 -->
+
+		<section id="section2" class="container-fluid">
+
+			<h2 class="h2 orange">Bienen und Honig</h2>
+
+			<!-- Ikonok, leírás -->
+			<div class="row leiras">
+
+				<div class="col-10 col-md-4 text-center mx-auto">						
+					<img src="bee-1.png" class="img-fluid kep2"><br>
+					<p class="text-center">Bienen</p>
+					<p class="text-justify mx-2">Es ist ein wenig übertrieben zu sagen, dass wir ohne Bienen nicht lange auf der Erde bleiben können. Für den Großteil unserer Ernährung werden Pflanzen von diesen fiesen Insekten bestäubt.</p> 
+				</div>
+
+				<div class="col-10 col-md-4 text-center mx-auto">
+					<img src="honey-1.png" class="img-fluid kep2"><br>
+					<p class="text-center">Honig</p>
+					<p class="text-justify mx-2">Sie liefern uns viele Produkte, die nicht nur zart, sondern auch äußerst gesund sind. Honig ist das bekannteste Honigprodukt.</p>
+				</div>
+
+				<div class="col-10 col-md-4 text-center mx-auto">
+					<img src="heart-1.png" class="img-fluid kep2"><br>
+					<p class="text-center">Gesundheit</p>
+					<p class="text-justify mx-2">Honig ist ein ausgezeichneter natürlicher Süßstoff, der auch von Diabetikern genossen werden kann. Gleichzeitig müssen Diätetiker keine Süßigkeiten aufgeben, weil sie mit Honig-Lutscher "heilen" können.</p>
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- SECTION 2 VÉGE -->
+
+		<!-- SECTION 3 -->
+
+		<section id="section3" class="container-fluid">
+
+				<h2 class="h2 gray">Produkte und Preise</h2>
+
+				<div class="container mt-3">				  
+				  	<div id="accordion">
+				  		<div class="card">
+					      	<div class="card-header">
+					        	<a class="collapsed card-link" data-toggle="collapse" href="#collapseOne"> 
+					          		<div class="row py-2">
+										
+										<p class="col-11 py-2" style="color: black">
+										<img src="akac-mez.jpg" class="kepek img-fluid" style="float: left;">
+										<span id="akac">Akazienhonig</span><br>
+										Akazienhonig ist weich und angenehm, daher eignet er sich hervorragend zum Würzen von Speisen und Getränken. Es ist schwierig zu kristallisieren, was bedeutet, dass es für eine lange Zeit flüssig bleibt. Akazienhonig kann sehr wirksam gegen Magensäurevergiftung und Husten sein.<br><spam style="color: blue;">Klicken Sie für den Preis ...</spam></p>
+									</div>
+					        	</a>
+					      	</div>
+					      	<div id="collapseOne" class="collapse" data-parent="#accordion">
+					        	<div class="card-body">
+					          		<p class="text-center">Akazienhonig Preise</p>
+					          		<table class="table table-borderless table-striped">
+					          			<thead>
+					          				<tr class="text-center">
+					          					<th>Strippen</th>
+					          					<th>Preise</th>
+					          				</tr>
+					          			</thead>
+					          			<tbody>
+					          				<tr class="text-center">
+					          					<td>1000g</td>
+					          					<td>2000 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>900g</td>
+					          					<td>1800 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>500g</td>
+					          					<td>1150 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>250g</td>
+					          					<td>600 huf</td>
+					          				</tr>
+					          			</tbody>
+					          		</table>
+					        	</div>
+					      	</div>
+					    </div>
+					    <div class="card">
+					      	<div class="card-header">
+					        	<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+					          		<div class="row py-2">
+					          			
+										<p class="col-11 ml-auto text-right py-2" style="color: black">
+										<img src="hars-mez.jpg" class="kepek img-fluid" style="float: right;">
+										<span id="hars">Lime Honig</span><br>
+										Lindenhonig hat einen sehr scharfen Geschmack und dient oft als Basis für Schlammpackungen. Es kann unser Immunsystem stärken, was es zu einem besonders empfohlenen Verzehr im Winter macht.<br><spam style="color: blue;">Klicken Sie für den Preis ...</spam></p>
+									</div>
+					        	</a>
+					      	</div>
+					      	<div id="collapseTwo" class="collapse" data-parent="#accordion">
+					        	<div class="card-body">
+					          		<p class="text-center">Lime Honig Preise</p>
+					          		<table class="table table-borderless table-striped">
+					          			<thead>
+					          				<tr class="text-center">
+					          					<th>Strippen</th>
+					          					<th>Preise</th>
+					          				</tr>
+					          			</thead>
+					          			<tbody>
+					          				<tr class="text-center">
+					          					<td>1000g</td>
+					          					<td>1800 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>900g</td>
+					          					<td>1620 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>500g</td>
+					          					<td>1050 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>250g</td>
+					          					<td>550 huf</td>
+					          				</tr>
+					          			</tbody>
+					          		</table>
+					        	</div>
+					      	</div>
+					    </div>
+					    <div class="card">
+					      	<div class="card-header">
+					        	<a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+					          	<div class="row py-2">
+										
+										<p class="col-11 py-2" style="color: black">
+										<img src="nyari.jpg" class="kepek img-fluid" style="float: left;">
+										<span id="nyari">Sommerblütenhonig</span><br>
+										Mit seinem mild-würzigen Geschmack gehört er zu den beliebtesten Honigsorten für Aromen und Kuchen. Der feinste Rohstoff des Lebkuchens. Darüber hinaus geben viele Wildblumen den Reichtum des Sommerhonigs und die Grundlage ihrer positiven physiologischen Wirkung.<br><spam style="color: blue;">Klicken Sie für den Preis ...</spam></p>
+									</div>
+					        	</a>
+					      	</div>
+					      	<div id="collapseThree" class="collapse" data-parent="#accordion">
+					        	<div class="card-body">
+					          		<p class="text-center">Sommerblütenhonig Preise</p>
+					          		<table class="table table-borderless table-striped">
+					          			<thead>
+					          				<tr class="text-center">
+					          					<th>Strippen</th>
+					          					<th>Preise</th>
+					          				</tr>
+					          			</thead>
+					          			<tbody>
+					          				<tr class="text-center">
+					          					<td>1000g</td>
+					          					<td>1600 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>900g</td>
+					          					<td>1450 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>500g</td>
+					          					<td>900 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>250g</td>
+					          					<td>500 huf</td>
+					          				</tr>
+					          			</tbody>
+					          		</table>
+					        	</div>
+					      	</div>
+					    </div>
+					    <div class="card">
+					      	<div class="card-header">
+					        	<a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+					          		<div class="row py-2">
+										<p class="col-11 ml-auto text-right py-2" style="color: black">
+										<img src="tavaszi.jpg" class="kepek img-fluid" style="float: right;">
+										<span id="tavaszi">Frühlingsblütenhonig</span><br>
+										Die Farbe und der Geschmack von Frühlingsblütenhonig hängt von der Blütenversorgung eines bestimmten Jahres ab. In der Regel gelb - goldbraun, mäßig kristallisiert, frisch, leicht mit Honig getönt. Es hat eine hohe Bandbreite, lindert Erkältungssymptome, ist antibakteriell, wirkt knochenverstärkend.<br><spam style="color: blue;">Klicken Sie für den Preis ...</spam></p>
+										
+									</div>
+					        	</a>
+					      	</div>
+					      	<div id="collapseFour" class="collapse" data-parent="#accordion">
+					        	<div class="card-body">
+					          		<p class="text-center">Frühlingsblütenhonig Preise</p>
+					          		<table class="table table-borderless table-striped">
+					          			<thead>
+					          				<tr class="text-center">
+					          					<th>Strippen</th>
+					          					<th>Preise</th>
+					          				</tr>
+					          			</thead>
+					          			<tbody>
+					          				<tr class="text-center">
+					          					<td>1000g</td>
+					          					<td>1600 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>900g</td>
+					          					<td>1450 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>500g</td>
+					          					<td>900 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>250g</td>
+					          					<td>500 huf</td>
+					          				</tr>
+					          			</tbody>
+					          		</table>
+					        	</div>
+					      	</div>
+					    </div>
+					    <div class="card">
+					      	<div class="card-header">
+					        	<a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+					          		<div class="row py-2">
+										
+										<p class="col-11 py-2" style="color: black">
+										<img src="repce-mez.jpeg" class="kepek img-fluid" style="float: left;">
+										<span id="repce">Rapshonig</span><br>
+										Der Rapssamen ist sehr cremig und kann schnell rutschen. Es hat eine sehr starke antiseptische und entzündungshemmende Wirkung, ist aber auch hervorragend gegen Bauchschmerzen geeignet.<br><spam style="color: blue;">Klicken Sie für den Preis ...</spam></p>
+									</div>
+					        	</a>
+					      	</div>
+					      	<div id="collapseFive" class="collapse" data-parent="#accordion">
+					        	<div class="card-body">
+					          		<p class="text-center">Rapshonig Preise</p>
+					          		<table class="table table-borderless table-striped">
+					          			<thead>
+					          				<tr class="text-center">
+					          					<th>Strippen</th>
+					          					<th>Preise</th>
+					          				</tr>
+					          			</thead>
+					          			<tbody>
+					          				<tr class="text-center">
+					          					<td>1000g</td>
+					          					<td>1600 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>900g</td>
+					          					<td>1450 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>500g</td>
+					          					<td>900 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>250g</td>
+					          					<td>500 huf</td>
+					          				</tr>
+					          			</tbody>
+					          		</table>
+					        	</div>
+					      	</div>
+					    </div>
+					    <div class="card">
+					      	<div class="card-header">
+					        	<a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+					          		<div class="row py-2">
+										<p class="col-11 ml-auto text-right py-2" style="color: black">
+										<img src="napraforgo-mez.jpg" class="kepek img-fluid" style="float: right;">
+										<span id="napraforgo">Sonnenblumenhonig</span><br>
+										Sonnenblumenhonig kann hervorragend zum Würzen von Getränken sein. Es kann in ungefähr einer Woche oder zwei auskristallisieren. Sonnenblumenhonig ist sehr gut gegen Magensäure und wirkt entzündungshemmend.<br><spam style="color: blue;">Klicken Sie für den Preis ...</spam></p>
+										
+									</div>
+					        	</a>
+					      	</div>
+					      	<div id="collapseSix" class="collapse" data-parent="#accordion">
+					        	<div class="card-body">
+					          		<p class="text-center">Sonnenblumenhonig Preise</p>
+					          		<table class="table table-borderless table-striped">
+					          			<thead>
+					          				<tr class="text-center">
+					          					<th>Strippen</th>
+					          					<th>Preise</th>
+					          				</tr>
+					          			</thead>
+					          			<tbody>
+					          				<tr class="text-center">
+					          					<td>1000g</td>
+					          					<td>1600 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>900g</td>
+					          					<td>1450 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>500g</td>
+					          					<td>900 huf</td>
+					          				</tr>
+					          				<tr class="text-center">
+					          					<td>250g</td>
+					          					<td>500 huf</td>
+					          				</tr>
+					          			</tbody>
+					          		</table>
+					        	</div>
+					      	</div>
+					    </div>
+
+					    <div class="card">
+					      	<div class="card-header">
+					        	<a class="collapsed card-link" data-toggle="collapse" href="#collapseEight"> 
+					          		<div class="row py-2">
+										
+										<p class="col-11 py-2" style="color: black">
+										<img src="diszcsom.jpg" class="kepek img-fluid" style="float: left;">
+										<span id="disz">Dekorierte Produkte</span><br><spam style="color: blue;">Klicken Sie für den Preis ...</spam></p>
+									</div>
+					        	</a>
+					      	</div>
+					      	<div id="collapseEight" class="collapse" data-parent="#accordion">
+					        	<div class="card-body">
+					          		<p class="text-center">Dekorierte Produkte Preise</p>
+					          		<table class="table table-borderless table-striped">
+					          			<thead>
+					          				<tr>
+					          					<th>Strippen</th>
+					          					<th>Preise</th>
+					          				</tr>
+					          			</thead>
+					          			<tbody>
+					          				<tr class="">
+					          					<td>4x230g Honig</td>
+					          					<td>2450 huf</td>
+					          				</tr>
+					          				<tr class="">
+					          					<td>2x500g Honig (Acacia, Lime)</td>
+					          					<td>2600 huf</td>
+					          				</tr>
+					          				<tr class="">
+					          					<td>2x500g Honig (Acacia-jede Blume)</td>
+					          					<td>2450 huf</td>
+					          				</tr>
+					          				<tr class="">
+					          					<td>2x500g Honig (Lime-jede Blume)</td>
+					          					<td>2350 huf</td>
+					          				</tr>
+					          				<tr class="">
+					          					<td>2x500g Honig (2 Arten von Blütenhonig)</td>
+					          					<td>2100 huf</td>
+					          				</tr>
+					          				<tr class="">
+					          					<td>Hütte</td>
+					          					<td>1500 huf</td>
+					          				</tr>
+					          				<tr class="">
+					          					<td>Kleines Regal</td>
+					          					<td>1850 huf</td>
+					          				</tr>
+					          				<tr class="">
+					          					<td>Großes Regal</td>
+					          					<td>2500 huf</td>
+					          				</tr>
+					          				<tr class="">
+					          					<td>Herzförmiges Honigglas</td>
+					          					<td>850 huf</td>
+					          				</tr>
+					          				<tr class="">
+					          					<td>2x500g Honig Holzkiste</td>
+					          					<td>3000 huf</td>
+					          				</tr>
+					          				<tr></tr>
+					          				<tr class="">
+					          					<td>Geschenkbox für 1kg Honig</td>
+					          					<td>350 huf</td>
+					          				</tr>
+					          				<tr class="">
+					          					<td>Dekorative Tasche</td>
+					          					<td>350 huf</td>
+					          				</tr>
+					          			</tbody>
+					          		</table>
+					        	</div>
+					      	</div>
+					    </div>					
+				    </div>
+				</div>
+
+			</section>
+
+		<!-- SECTION 3 VÉGE -->
+
+		<!-- PARALLAX -->
+
+		<div class="parallax">
+			<p class="text-center">"Wer liebt deine Frau, um ihre Gesundheit mit Honig zu schützen!"</p>
+		</div>
+
+		<!-- PARALLAX VÉGE -->
+
+		<!-- SECTION 4 -->
+
+		<section id="section4" class="container-fluid">
+
+			<h2 class="h2 orange">Kundenbewertungen</h2>
+
+			<!-- carousel -->
+
+				<div class="container slide-container"> 
+					
+					<div class="carousel slide" id="demo" data-ride="carousel" data-interval="5000">
+
+						<!-- indikátorok/gördítő gombok -->
+
+						<ul class="carousel-indicators">
+							<li data-target="#demo" data-slide-to="0" class="active"></li>
+							<li data-target="#demo" data-slide-to="1"></li>
+							<li data-target="#demo" data-slide-to="2"></li>
+							<li data-target="#demo" data-slide-to="3"></li>
+							<li data-target="#demo" data-slide-to="4"></li>
+						</ul>
+
+						<!-- fő egység -->
+
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="card mx-auto">
+				  					<p><span>&#750;</span> Honig ist sehr lecker! Servieren ist schnell und genau. Ich kann es jedem empfehlen!</p>
+									<p class="author">- Takács Attila</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card mx-auto">
+				  					<p><span>&#750;</span> Wie immer war alles in Ordnung mit Bestellung und Lieferung.</p>
+				  					<p class="author">- Kiss Orsi</p>
+				  				</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card mx-auto">
+				  					<p><span>&#750;</span> Honig ist sehr gut im Geschmack. Am köstlichsten ist der Geschmack der Sonnenblume und mein Kaffee ist süß.</p>
+				  					<p class="author">- Nagy Tamás</p>
+				  				</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card mx-auto">
+				  					<p><span>&#750;</span> Wir lieben ihren Honig, ein köstliches und ausgezeichnetes ungarisches Produkt.</p>
+				  					<p class="author">- Szabó Győző</p>
+				  				</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card mx-auto">
+				  					<p><span>&#750;</span> Wir wünschen Ihnen mehr erfolgreiche Arbeit und fleißige Bienen!</p>
+				  					<p class="author">- Ábrahám Péter</p>
+				  				</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- carousel VÉGE -->
+
+			<h3 class="text-center">unsere Partner</h3>
+
+			<div id="partnerek" class="row text-center">
+				
+				<a href="http://www.indivinum.hu/hu/" class="col-10 col-md-3 mx-auto">
+					<img src="hetenyilogo.png">
+					<p>Hetényi Weingut Mecseknádasd</p>
+				</a>
+			
+				<a href="http://karlbeer.com/" class="col-10 col-md-3 mx-auto">
+					<img src="karl-mikro.png">
+					<p>Karl-Mikro Brauerei</p>
+				</a>
+			
+				<a href="http://www.cba.hu/" class="col-10 col-md-3 mx-auto">
+					<img src="cba.png">
+					<p>Mecseknádasd CBA Lebensmittelgeschäft</p>
+				</a>
+				
+			</div>
+
+		</section>
+
+		<!-- SECTION 4 VÉGE -->
+
+		<!-- SECTION 5 -->
+
+		<section id="section5" class="container-fluid">
+			
+			<h2 class="h2 gray">Meine Kontakte</h2>
+
+			<div class="row text-center elerh">
+
+				<div class="col-12 col-md-2"></div>
+
+				<div class="col-12 col-md-2 mx-auto mb-3 kuld">
+					<a href="https://www.facebook.com/roland.banhegyi.1" class="mx-auto" target="_blank">
+						<img src="icons8-facebook-50.png">
+					</a>
+					<p class="text-center">Facebook Beziehung!</p>
+				</div>
+
+				<div class="col-12 col-md-2 mx-auto mb-3 kuld">
+					<a href="mailto:banhegyi@gmail.com" class="mx-auto">
+						<img src="icons8-new-post-50.png">
+					</a>
+					<p class="text-center">Messaging!</p>
+				</div>
+
+				<div class="col-12 col-md-2 mx-auto mb-3 kuld">
+					<a href="tel: +36 30 230 7775" class="mx-auto">
+						<img src="icons8-phone-50.png">	
+					</a>
+					<p class="text-center">phone Anrufen!</p>
+				</div>
+
+				<div class="col-12 col-md-2 mx-auto mb-3 kuld">
+					<a href="https://www.google.com/maps/place/Mecsekn%C3%A1dasd,+Kossuth+Lajos+u.+96,+7695/@46.2228237,18.4527833,17z/data=!3m1!4b1!4m5!3m4!1s0x4742bfaf004afccf:0xe90a28f805def21d!8m2!3d46.22282!4d18.454972" class="mx-auto" target="_blank">
+						<img src="icons8-waypoint-map-50.png">
+					</a>
+					<p class="text-center">Anfahrtsweg!</p>
+				</div>
+
+				<div class="col-12 col-md-2"></div>
+
+			</div>
+
+		</section>
+
+		<!-- SECTION 5 VÉGE -->
+
+		<!-- FOOTER -->
+
+		<section id="contact" class="container-fluid">
+
+			<p class="text-center">Copyright © 2018 by <a href="http://www.web-build.eu/" style="color: orange; text-decoration: none;" target="_blank">Zsolt</a></p>
+
+		</section>
+
+		<!-- FOOTER VÉGE -->
+
+		<!-- SCRIPT -->
+		<script src="script.js"></script>
+
+	</body>
+</html>
